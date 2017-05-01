@@ -1,3 +1,11 @@
+This is old prototype.
+
+main == severine eve
+
+Never name your projects with James Bond girl names.
+After 3 months had no idea which project does what.
+
+
 # Strawberry Fields
 ![Strawbery Girl](strawberry-fields-2.jpg)
 # Severine
