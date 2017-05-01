@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\helper">
+      <UniqueIdentifier>{a195548b-cd38-4027-9d54-40cfa9694566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\blob">
+      <UniqueIdentifier>{0248011f-a682-4280-bd7e-e751496672e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\counter">
+      <UniqueIdentifier>{eea25cf1-9e18-4fe6-b700-ee0d6efdec74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{40290dc8-5052-4f74-8169-f1dcfc62a4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\road">
+      <UniqueIdentifier>{3ab3ce34-7733-4629-b38c-3f54c83d4181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\vehicle">
+      <UniqueIdentifier>{b3d3d2c1-c59e-47ec-9612-5b3f1a391ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\video">
+      <UniqueIdentifier>{8638980b-984f-4b3b-8ce6-4d5d7aad5d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\video\bg-subtraction">
+      <UniqueIdentifier>{3010291f-db36-4555-899a-fa224973d72d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\video\motion-estimation">
+      <UniqueIdentifier>{89f610f5-a4a9-408b-bdce-23ce9fe5cf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\video\stabilization">
+      <UniqueIdentifier>{8b89b330-3c5b-49e2-a5e0-8ad287524bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blob">
+      <UniqueIdentifier>{706997fd-0ff2-4145-9436-236cad5172a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\counter">
+      <UniqueIdentifier>{54de611a-76d5-44ef-acd2-a03814c15c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\helper">
+      <UniqueIdentifier>{9162c0dd-7348-4222-97b6-d1885e5a153d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\road">
+      <UniqueIdentifier>{c5107dec-5aa8-4bda-9c19-df810394df5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vehicle">
+      <UniqueIdentifier>{2191f936-bddc-4f64-877b-4b7d17811d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\video">
+      <UniqueIdentifier>{4141b8d0-a1d4-4426-af38-214382dddf8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\helper\Drawer.h">
+      <Filter>Header Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\helper\Line.hpp">
+      <Filter>Header Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\helper\Logger.hpp">
+      <Filter>Header Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\helper\Multiplex.h">
+      <Filter>Header Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\helper\ShapeBounder.hpp">
+      <Filter>Header Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\blob\BlobTracker.h">
+      <Filter>Header Files\blob</Filter>
+    </ClInclude>
+    <ClInclude Include="include\blob\blob.h">
+      <Filter>Header Files\blob</Filter>
+    </ClInclude>
+    <ClInclude Include="include\counter\Counter.hpp">
+      <Filter>Header Files\counter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\polyfit.hpp">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\HoughTransform.hpp">
+      <Filter>Header Files\video</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\stabilization\VideoStab.hpp">
+      <Filter>Header Files\video\stabilization</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\stabilization\VideoStabilization.hpp">
+      <Filter>Header Files\video\stabilization</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\motion-estimation\MotionEstimatorL1Builder.hpp">
+      <Filter>Header Files\video\motion-estimation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\motion-estimation\MotionEstimatorRansacL2Builder.hpp">
+      <Filter>Header Files\video\motion-estimation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\motion-estimation\IMotionEstimatorBuilder.hpp">
+      <Filter>Header Files\video\motion-estimation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\bg-subtraction\MyBackgroundSubtractor.hpp">
+      <Filter>Header Files\video\bg-subtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vehicle\VehicleManager.hpp">
+      <Filter>Header Files\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vehicle\Vehicle.hpp">
+      <Filter>Header Files\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="include\road\RoadTransformator.hpp">
+      <Filter>Header Files\road</Filter>
+    </ClInclude>
+    <ClInclude Include="include\road\RoadDetector.h">
+      <Filter>Header Files\road</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IOCallbacks.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MaskExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\helper\MissionControl.h">
+      <Filter>Header Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\blob\cvaux.cpp">
+      <Filter>Source Files\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blob\label.cpp">
+      <Filter>Source Files\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blob\track.cpp">
+      <Filter>Source Files\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blob\blob.cpp">
+      <Filter>Source Files\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blob\BlobTracker.cpp">
+      <Filter>Source Files\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blob\color.cpp">
+      <Filter>Source Files\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blob\contour.cpp">
+      <Filter>Source Files\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="src\counter\Counter.cpp">
+      <Filter>Source Files\counter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helper\Logger.cpp">
+      <Filter>Source Files\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helper\Multiplex.cpp">
+      <Filter>Source Files\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helper\ShapeBounder.cpp">
+      <Filter>Source Files\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helper\Drawer.cpp">
+      <Filter>Source Files\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helper\Line.cpp">
+      <Filter>Source Files\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\HoughTransform.cpp">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\bg-subtraction\MyBackgroundSubtractor.cpp">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\motion-estimation\MotionEstimatorL1Builder.cpp">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\motion-estimation\MotionEstimatorRansacL2Builder.cpp">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\stabilization\VideoStab.cpp">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\stabilization\VideoStabilization.cpp">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vehicle\Vehicle.cpp">
+      <Filter>Source Files\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vehicle\VehicleManager.cpp">
+      <Filter>Source Files\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\road\RoadTransformator.cpp">
+      <Filter>Source Files\road</Filter>
+    </ClCompile>
+    <ClCompile Include="src\road\RoadDetector.cpp">
+      <Filter>Source Files\road</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IOCallbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MaskExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helper\MissionControl.cpp">
+      <Filter>Source Files\helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

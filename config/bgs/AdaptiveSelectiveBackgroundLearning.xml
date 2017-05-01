@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<learningFrames>1000</learningFrames>
+<alphaLearn>2.9999999999999999e-02</alphaLearn>
+<alphaDetection>5.6000000000000005e-01</alphaDetection>
+<threshold>23</threshold>
+<showOutput>1</showOutput>
+</opencv_storage>

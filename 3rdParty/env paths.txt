@@ -1,0 +1,2 @@
+OPENH264_LIBRARY_PATH
+C:\Users\FilipBiedrzyki\Documents\traffic-counter\3rdParty\openh264-1.4.0-win64msvc.dll
